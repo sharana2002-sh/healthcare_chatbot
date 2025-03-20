@@ -1,0 +1,230 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going"],
+        "responses": ["Hello!", "Hey there!", "What can I do for you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["cya", "see you later", "goodbye", "have a good day", "bye", "see ya"],
+        "responses": ["Goodbye! Take care!", "Have a great day!"]
+      },
+      {
+        "tag": "default",
+        "patterns": [""],
+        "responses": ["Please consult a doctor before taking any medications."]
+      },
+      {
+        "tag": "cancer",
+        "patterns": ["lump", "unexplained weight loss", "persistent cough", "change in bowel habits", "unusual bleeding"],
+        "responses": ["It could be a symptom of cancer. Please consult an oncologist immediately."]
+      },
+      {
+        "tag": "flu",
+        "patterns": ["fever", "chills", "body aches", "cough", "sore throat", "fatigue", "runny nose"],
+        "responses": ["It seems like you may have the flu. Stay hydrated, rest, and consult a doctor if symptoms worsen."]
+      },
+      {
+        "tag": "sore throat",
+        "patterns": ["pain when swallowing", "scratchy throat", "difficulty talking", "irritation in throat"],
+        "responses": ["It seems like a sore throat. Try warm salt water gargles and stay hydrated. Consult a doctor if it persists."]
+      },
+      {
+        "tag": "cough",
+        "patterns": ["persistent cough", "dry cough", "wet cough", "coughing at night"],
+        "responses": ["You might have a cough. Use honey with warm water and consult a doctor for persistent symptoms."]
+      },
+      {
+        "tag": "headache",
+        "patterns": ["throbbing head", "migraine", "pressure in head", "tension in head"],
+        "responses": ["It seems like you have a headache. Try over-the-counter pain relievers like ibuprofen and stay hydrated."]
+      },
+      {
+        "tag": "indigestion",
+        "patterns": ["stomach discomfort", "bloating", "heartburn", "nausea after eating"],
+        "responses": ["It seems like indigestion. Try eating smaller meals and avoid spicy foods."]
+      },
+      {
+        "tag": "diarrhea",
+        "patterns": ["loose stools", "frequent bowel movements", "stomach cramps", "dehydration"],
+        "responses": ["You may have diarrhea. Stay hydrated with electrolyte solutions and avoid greasy foods."]
+      },
+      {
+        "tag": "constipation",
+        "patterns": ["difficulty passing stools", "hard stools", "abdominal discomfort"],
+        "responses": ["It seems like constipation. Increase your fiber intake and drink plenty of water."]
+      },
+      {
+        "tag": "minor cuts and wounds",
+        "patterns": ["small cut", "minor wound", "bleeding", "scratch"],
+        "responses": ["Clean the wound with water, apply antiseptic cream, and use a bandage."]
+      },
+      {
+        "tag": "acne or pimples",
+        "patterns": ["pimples", "acne", "skin breakouts", "red bumps on face"],
+        "responses": ["It seems like acne. Wash your face twice a day and avoid oily products."]
+      },
+      {
+        "tag": "muscle strains or sprains",
+        "patterns": ["muscle pain", "twisted ankle", "strained muscle", "swelling"],
+        "responses": ["It seems like a muscle strain. Use the R.I.C.E method (Rest, Ice, Compression, Elevation)."]
+      },
+      {
+        "tag": "mild burns",
+        "patterns": ["burnt skin","mild burns", "red skin", "minor burns", "heat burn"],
+        "responses": ["Cool the burn under running water for 10 minutes and apply aloe vera gel."]
+      },
+      {
+        "tag": "nausea",
+        "patterns": ["feeling sick","nausea", "urge to vomit", "queasy", "dizzy"],
+        "responses": ["It seems like nausea. Ginger tea or peppermint might help."]
+      },
+      {
+        "tag": "earache",
+        "patterns": ["ear pain","earache", "blocked ear", "discomfort in ear"],
+        "responses": ["You may have an earache. Use warm compresses and consult a doctor if it persists."]
+      },
+      {
+        "tag": "insomnia",
+        "patterns": ["difficulty sleeping", "restless sleep", "can't fall asleep"],
+        "responses": ["It seems like insomnia. Avoid caffeine before bed and try relaxation techniques."]
+      },
+      {
+        "tag": "allergies",
+        "patterns": ["itchy eyes", "sneezing", "runny nose", "skin rash"],
+        "responses": ["It seems like allergies. Avoid allergens and consider antihistamines."]
+      },
+      {
+        "tag": "dandruff",
+        "patterns": ["itchy scalp", "flaky scalp", "white flakes in hair"],
+        "responses": ["You may have dandruff. Use an anti-dandruff shampoo."]
+      },
+      {
+        "tag": "sunburn",
+        "patterns": ["red skin", "burnt skin", "peeling skin", "painful skin"],
+        "responses": ["It seems like sunburn. Apply aloe vera gel and stay hydrated."]
+      },
+      {
+        "tag": "anxiety",
+        "patterns": ["feeling nervous", "constant worry", "rapid heartbeat", "fear"],
+        "responses": ["It seems like anxiety. Try deep breathing exercises and consult a therapist."]
+      },
+      {
+        "tag": "malaria",
+        "patterns": ["fever", "chills", "sweating", "headache", "nausea", "muscle pain"],
+        "responses": ["It seems like malaria. Please consult a doctor immediately."]
+      },
+      {
+        "tag": "stroke",
+        "patterns": ["sudden numbness", "trouble speaking", "loss of balance", "face drooping"],
+        "responses": ["Stroke symptoms detected. Seek emergency medical attention immediately."]
+      },
+     {
+        "tag":"greetings",
+        "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+        "responses":["hello","hey!","what can i do for you?"]
+       },
+       {
+        "tag":"goodbye",
+        "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
+        "responses":["have a nice day","goodbye"]
+       },
+       {
+        "tag":"age",
+        "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+        "responses":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
+       },
+       {
+        "tag":"name",
+        "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+        "responses":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant"]
+       },
+       {
+        "tag":"common cold symptoms",
+        "patterns": ["Runny or stuffy nose",
+        "Sore throat",
+        "Cough",
+        "Congestion",
+        "Slight body aches or a mild headache",
+        "Sneezing",
+        "Low-grade fever",
+        "Generally feeling unwell (malaise)"],
+        "responses":["It seems that you are suffering from common cold"]
+       },
+       {
+        "tag":"fever symptoms",
+        "patterns":["Sweating",
+        "Chills and shivering",
+        "Headache",
+        "Muscle aches",
+        "Loss of appetite",
+        "Irritability",
+        "Dehydration",
+        "General weakness"],
+        "responses":["It seems that you are suffering from fever"]
+       },
+       {
+        "tag":"Diabetes symptoms",
+        "patterns":["increased hunger",
+        "increased thirst",
+        "weight loss",
+        "frequent urination",
+        "blurry vision",
+        "extreme fatigue"],
+        "responses":["It seems that you are suffering from Diabetes"]
+       },
+       {
+        "tag":"Depression symptoms",
+        "patterns":["Hopeless outlook",
+        "Lost interest",
+        "Increased fatigue",
+        "sleep problem",
+        "Anxiety",
+        "change in weight",
+        "Looking at death"],
+        "responses":["It seem that you are suffering from depression"]
+       },
+       {
+        "tag":"Asthma symptoms",
+        "patterns":["coughing",
+        "tightness in the chest",
+        "shortness of breath",
+        "difficulty talking",
+        "panic",
+        "fatigue"],
+        "responses":["It seem that you are suffering from Asthma"]
+       },
+       {
+        "tag":"common cold prevention",
+        "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+        "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+       },
+       {
+        "tag":"fever prevention",
+        "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+        "responses":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+       },
+       {
+        "tag":"diabetes prevention",
+        "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+        "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+       },
+       {
+        "tag":"depression prevention",
+        "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+        "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+       },
+       {
+        "tag":"asthma prevention",
+        "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+        "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+       },
+       {
+        "tag":"Consultation",
+        "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+        "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+       }
+    ]
+  }
+  
